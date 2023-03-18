@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.section-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Media/resting-place.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1 1fr);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.section-one div .paragraph-01 {
+  font-size: 66px;
+  text-align: center;
+  padding: 1rem 0;
+  color: #ffffff;
+}
+.section-one div .mini-paragraph-01 {
+  font-size: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-one div .paragraph-02 {
+  font-size: 36px;
+  color: #ffffff;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+.section-one div .center-btn {
+  background-color: #36241F;
+  margin: 1rem 8rem;
+  padding: 1rem;
+  border: 0.1rem solid #36241F;
+  border-radius: 0.2rem;
+}
+.section-one div .center-btn a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem 0;
+  word-spacing: -0.1rem;
+}
+
+.section-two .white-bg-text {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.section-two .black-bg-wrap {
+  text-align: center;
+  background-color: #252222;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.section-two .black-bg-wrap .black-bg-text {
+  color: #f5deb3;
+  margin: 1rem;
+}
+
+.section-three .card-heading {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+.section-three .card-wrapper {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 3rem;
+}
+.section-three .card-wrapper .card {
+  max-width: 300px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+}
+.section-three .card-wrapper .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.section-three .card-wrapper .card div {
+  padding: 10px;
+}
+.section-three .card-wrapper .card div p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.section-three .card-wrapper .card div h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.section-three .card-wrapper .card div a {
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #36241F;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.section-four {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Media/resting-place.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  border-top: 0.1rem solid grey;
+  min-height: 40vh;
+  padding-top: 50px;
+}
+.section-four .img-span {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem;
+}
+.section-four .img-text {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.img-text-02 {
+  padding: 30px 5px;
+}
+.img-text-02 p {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.section-five {
+  background-color: #252222;
+  color: #f5deb3;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 3rem;
+}
+.section-five .image-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section-five .image-wrap div {
+  width: 100%;
+  border: none;
+}
+.section-five .image-wrap div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.section-five .image-wrap div div {
+  padding: 10px;
+}
+.section-five .image-wrap div div p {
+  font-size: 18px;
+}
+
+.section-six .special-offer-heading {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: none;
+}
+.section-six .card-wrap-02 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 6rem;
+}
+.section-six .card-wrap-02 .card-02 {
+  border-radius: 5px;
+  overflow: hidden;
+  border: 0.1rem solid grey;
+  margin: 1rem 0.4rem;
+  max-width: 21rem;
+}
+.section-six .card-wrap-02 .card-02 img {
+  width: 100%;
+}
+.section-six .card-wrap-02 .card-02 p {
+  text-align: center;
+  margin: 1rem;
+}
+.section-six .card-wrap-02 .card-02 article {
+  text-align: center;
+  margin: 1.3rem;
+  padding: 1rem;
+}
+
+.section-seven {
+  background-color: #252222;
+  color: #ffffff;
+  padding: 2rem;
+}
+.section-seven p {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+.section-seven .text-card-wrap {
+  margin: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section-seven .text-card-wrap .text-card {
+  border-right: 0.1rem solid gray;
+  border-left: 0.1rem solid gray;
+  border-bottom: 0.1rem solid gray;
+  text-align: center;
+  padding: 5px;
+}
+
+.section-eight {
+  background: url(../Media/round-mirror.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(0.1rem);
+  border-top: 0.1rem solid #000000;
+}
+
+footer {
+  background-color: #252222;
+  color: #ffffff;
+  padding: 1rem;
+}
+footer h4 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer .flex-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+footer .flex-wrap .footer {
+  padding: 1rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

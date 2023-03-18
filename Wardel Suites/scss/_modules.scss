@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+$colors:(
+    color01: #000000,
+    color02: #ffffff,
+    color03:#f5deb3,
+    color04: #36241F,
+    color05: #252222,
+);
+// function for getting color
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
+
+h5 {
+    font-size: 16px;
+}
