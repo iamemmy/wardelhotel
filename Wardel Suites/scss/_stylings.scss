@@ -53,33 +53,18 @@
             font-size: 30px;
         }
         }
-        .center-btn {
-            background-color: getColor(color04);
-            margin: 1rem 8rem;
-            padding: 1rem;
-            border: 0.1rem solid getColor(color04);
-            border-radius: 0.2rem;
-            color: getColor(color02);
-            text-decoration: none;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            @include screen5 {
-                margin: 1rem 10rem;
-            }
-            @include screen7 {
-                font-size: 15px;
-            }
-            @include screen8 {
-                margin: 1rem 8rem;
-            }
-            @include screen10{
-                font-size: 11px;
-                background-color: getColor(color06);
-                border: 1px solid getColor(color06);
+        // I added a wrapper for the anchor tag element and displayed flex
+        .center-btn-wrrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .center-btn {
+                background-color: getColor(color04);
+                border: 0.1rem solid getColor(color04);
+                border-radius: 0.2rem;
                 color: getColor(color02);
-            }
-            @include screen11 {
-                font-size: 9px;
-                padding: 0.7rem;
+                text-decoration: none;
+                padding: 10px 20px;
             }
         }
     }
